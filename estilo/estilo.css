@@ -1,0 +1,120 @@
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+:root{
+    --color:#F9CF93;
+    --color_TextoSecundario:#FAEEE0;
+}
+body{
+    background: rgb(249,207,147);
+background: radial-gradient(circle, rgba(249,207,147,1) 0%, rgba(250,238,224,1) 100%);
+
+}
+.lista{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.lista .sushi{
+    border-radius: 50%;
+    width: 10%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: .5rem;
+    color: var(--color);
+
+}
+.contenedor_sushi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 10rem;
+
+    
+}
+.textoPrincipal{
+    color: var(--color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.TextoSecundario{
+    color: var(--color_TextoSecundario);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+   
+}
+.boton{
+
+    padding: 1.5rem 2rem;
+    background: var(--color);
+    color: var(--color_TextoSecundario);
+    text-decoration: none;
+    border-radius: .1rem;
+}
+.sushiU{
+    width: 100%;
+
+}
+.dos{
+    width: 100%;
+}
+.TextoSecundarioP{
+    color: var(--color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.parrafoSecundario{
+    color: var(--color_TextoSecundario);
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.NuestroProductos{
+    text-align: center;
+    color: var(--color_TextoSecundario);
+}
+/*card*/
+.nuestrosProductos{
+    text-align: center;
+    color: var(--color);
+    font-size: 2rem;
+}
+.fondoCard{
+    background: var(--color);
+    border-radius: .5rem;
+    height: 28rem;
+}
+.imagen_comida{
+    width: 80%;
+    position: relative;
+    top: -1rem;
+    left: 4.5rem;
+}
+.swiper{
+    width: 95%;
+    height: 100%;
+}
+
+.cardDatos{
+    margin-left: 8rem;
+}
+.cardDatos h4{
+    color: var(--color_TextoSecundario);
+}
+.precio{
+    color: var(--color_TextoSecundario);
+    margin-bottom: 2rem;
+
+}
+.cardDatos .comprar{
+    background: var(--color_TextoSecundario);
+    color: var(--color);
+    padding: 1rem 2.5rem;
+    list-style: none;
+    border-radius: .5rem;
+}
